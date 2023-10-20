@@ -40,7 +40,7 @@ const questions = [
         type: "list",
         name: "license",
         message: "What type of license would you like to include with your project?",
-        choices: ["MIT", "GPL", "CC--0"],
+        choices: ["MIT", "GPL v3", "Apache 2.0", "BSD-3", "No license"],
     },
     {
         type: "input",
@@ -59,7 +59,7 @@ const questions = [
 const createFile = data => {
     fs.writeFile("README.md", data, err => {
         if (err) {
-            console.log(error);
+            console.log(err);
             return;
         } else {
             console.log("README has been generated!")

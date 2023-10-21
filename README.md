@@ -1,4 +1,4 @@
-# README generator 10/20/23
+# README Generator
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -13,13 +13,13 @@
   * [Questions](#questions)
 
 ## Description
-This application allows a user to generate a professional README from the command-line application.
+This application allows the user to generate a professional README from the command line.
 
 ## Installation
-Simply navigate to the readme generator file and run node.
+Navigate to the README Generator file and run node index.
 
 ## Usage
-Anyone that wants to generate a professional readme can utilize this application.
+Anyone that wants to generate a professional README can benefit from this application.
 s
 ## Contributing
 N/A

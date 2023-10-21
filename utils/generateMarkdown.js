@@ -3,16 +3,18 @@
 
 function renderLicenseBadge(license) {
   if (license === "MIT") {
-    return `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`
+    return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
   }
   if (license === "GPL v3") {
-    return `![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)`
+    return `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`
   }
   if (license === "Apache 2.0") {
-    return `![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)`
+    return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
   }
   if (license === "BSD-3") {
-    return `![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)`
+    return `[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+
+    `
   }
   if (license === "No license") {
     return " "
@@ -37,6 +39,9 @@ function renderLicenseLink(license) {
   if (license === "BSD-3") {
     return `https://opensource.org/licenses/BSD-3-Clause`
   }
+  if (license === "No license") {
+    return " "
+  }
 }
 
 
@@ -48,7 +53,7 @@ function renderLicenseSection(license) {
   if (license === "No License") {
     return " ";
   } else {
-    return `This project is using the ${license} license.`
+    return `This project is using the ${license} license. Click license badge for additonal license information.`
   }
 }
 

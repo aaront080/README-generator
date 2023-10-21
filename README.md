@@ -20,7 +20,9 @@ Navigate to the README Generator file and run node index.
 
 ## Usage
 Anyone that wants to generate a professional README can benefit from this application.
-s
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u4Drk7SnhYE?si=zMZT4kGuYZyMA-ig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Contributing
 N/A
 

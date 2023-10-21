@@ -21,7 +21,7 @@ Navigate to the README Generator file and run node index.
 ## Usage
 Anyone that wants to generate a professional README can benefit from this application.
 
-[![Application Walkthrough](https://img.youtube.com/vi/u4Drk7SnhYE/maxresdefault.jpg](https://www.youtube.com/watch?v=u4Drk7SnhYE)
+[![Application Walkthrough](https://img.youtube.com/vi/u4Drk7SnhYE/maxresdefault.jpg)](https://www.youtube.com/watch?v=u4Drk7SnhYE)
 
 u4Drk7SnhYE
 

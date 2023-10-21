@@ -81,7 +81,7 @@ ${data.installation}
 
 ## Usage
 ${data.usage}
-s
+
 ## Contributing
 ${data.contribution}
 
